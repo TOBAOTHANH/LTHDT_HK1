@@ -1,4 +1,4 @@
-package tuan2.bai3;
+package tuan2.bai3_DANGKYXE;
 
 import java.util.Scanner;
 
@@ -9,11 +9,11 @@ public class Testvehicle {
         int choice;
 
         do {
-            System.out.println("Menu lựa chọn:");
+            System.out.println("Menu lựa ch�?n:");
             System.out.println("1. Nhập thông tin và tạo các đối tượng xe1, xe2, xe3");
-            System.out.println("2. Xuất bảng kê khai tiền thuế trước bạ của các xe");
+            System.out.println("2. Xuất bảng kê khai ti�?n thuế trước bạ của các xe");
             System.out.println("3. Thoát");
-            System.out.print("Nhập lựa chọn của bạn: ");
+            System.out.print("Nhập lựa ch�?n của bạn: ");
             choice = scanner.nextInt();
 
             switch (choice) {
@@ -34,7 +34,7 @@ public class Testvehicle {
                     System.out.println("Thoát chương trình.");
                     break;
                 default:
-                    System.out.println("Lựa chọn không hợp lệ!");
+                    System.out.println("Lựa ch�?n không hợp lệ!");
             }
         } while (choice != 3);
 

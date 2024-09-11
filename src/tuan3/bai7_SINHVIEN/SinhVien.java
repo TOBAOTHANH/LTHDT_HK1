@@ -1,4 +1,4 @@
-package tuan3.bai7;
+package tuan3.bai7_SINHVIEN;
 
 public class SinhVien {
     private int maSinhVien;
@@ -58,8 +58,8 @@ public class SinhVien {
 
     @Override
     public String toString() {
-        return "Mã sinh viên: " + maSinhVien + ", Họ tên: " + hoTen + 
-               ", Địa chỉ: " + diaChi + ", Số điện thoại: " + soDienThoai;
+        return "Mã sinh viên: " + maSinhVien + ", H�? tên: " + hoTen + 
+               ", �?ịa chỉ: " + diaChi + ", Số điện thoại: " + soDienThoai;
     }
 }
 

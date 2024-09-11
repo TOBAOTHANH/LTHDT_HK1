@@ -1,4 +1,4 @@
-package tuan3.bai7;
+package tuan3.bai7_SINHVIEN;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -20,10 +20,10 @@ public class QuanLySinhVien {
             int maSinhVien = scanner.nextInt();
             scanner.nextLine();
 
-            System.out.print("Họ tên: ");
+            System.out.print("H�? tên: ");
             String hoTen = scanner.nextLine();
 
-            System.out.print("Địa chỉ: ");
+            System.out.print("�?ịa chỉ: ");
             String diaChi = scanner.nextLine();
 
             System.out.print("Số điện thoại (7 chữ số): ");

@@ -1,4 +1,4 @@
-package tuan1.bai2;
+package tuan1.bai2_SINHVIEN;
 
 public class Test {
  public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package tuan3.bai8;
+package tuan3.bai8_CD;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class TestCD {
             System.out.println("5. Sắp xếp danh sách CD tăng dần theo tựa CD");
             System.out.println("6. Xuất danh sách CD");
             System.out.println("7. Thoát");
-            System.out.print("Nhập lựa chọn của bạn: ");
+            System.out.print("Nhập lựa ch�?n của bạn: ");
             luaChon = scanner.nextInt();
             scanner.nextLine();
 
@@ -71,7 +71,7 @@ public class TestCD {
                     break;
 
                 default:
-                    System.out.println("Lựa chọn không hợp lệ.");
+                    System.out.println("Lựa ch�?n không hợp lệ.");
                     break;
             }
         } while (luaChon != 7);

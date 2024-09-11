@@ -1,4 +1,4 @@
-package tuan1.bai1;
+package tuan1.bai1_HINHCHUNHAT;
 import java.util.Scanner;
 
 
@@ -15,13 +15,13 @@ public class testHCN  {
 	 {
 		 int cd, cr;
 		 Rectangle cn;
-		 cd=nhapSoNguyen("Nhập chiều dài =");
-		 cr=nhapSoNguyen("Nhập chiều rộng =");
+		 cd=nhapSoNguyen("Nhập chi�?u dài =");
+		 cr=nhapSoNguyen("Nhập chi�?u rộng =");
 		 cn = new Rectangle(cd,cr);
 		 return cn;
 	 }
 	 static String tieuDe() {
-		 return String.format("%-10s %-10s %-12s %-12s", "Chiều dài","Chiều rộng","Diện tích","Chu vi");
+		 return String.format("%-10s %-10s %-12s %-12s", "Chi�?u dài","Chi�?u rộng","Diện tích","Chu vi");
 	 }
 	 public static void nhapCung() {
 		 Rectangle cn1, cn2, cn3;

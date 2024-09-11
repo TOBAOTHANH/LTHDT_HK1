@@ -1,4 +1,4 @@
-package tuan3.bai6;
+package tuan3.bai6_HANGTHUCPHAM;
 
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
@@ -100,7 +100,7 @@ class HangThucPham {
 
         return "Mã hàng: " + maHang +
                "\nTên hàng: " + tenHang +
-               "\nĐơn giá: " + currencyFormatter.format(donGia) +
+               "\n�?ơn giá: " + currencyFormatter.format(donGia) +
                "\nNgày sản xuất: " + dateFormat.format(ngaySanXuat) +
                "\nNgày hết hạn: " + dateFormat.format(ngayHetHan) +
                "\nHàng hết hạn: " + (isExpired() ? "Có" : "Không");

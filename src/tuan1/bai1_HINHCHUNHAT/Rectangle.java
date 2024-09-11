@@ -1,4 +1,4 @@
-package tuan1.bai1;
+package tuan1.bai1_HINHCHUNHAT;
 
 public class Rectangle {
 	private int chieudai, chieurong;

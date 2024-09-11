@@ -1,4 +1,4 @@
-package tuan3.bai5;
+package tuan3.bai5_PHANSO;
 
 public class Rational {
 	private int numerator;   
