@@ -1,4 +1,4 @@
-package tuan1;
+package tuan1.bai2;
 
 public class Bai2 {
 	private int maSV;
